@@ -1,0 +1,12 @@
+[project]
+name = "pre-crm-research-agent"
+version = "0.1.0"
+description = "AI workflow for researching, scoring, and qualifying leads before CRM entry."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Mahadev Upadhyayula" }
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
